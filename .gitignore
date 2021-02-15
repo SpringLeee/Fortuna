@@ -7,3 +7,7 @@
 /Fortuna.Collector/bin/Debug/netstandard2.0
 /Fortuna.Storage.ElasticSearch/bin/Debug/netstandard2.0
 /Fortuna.Storage.ElasticSearch/obj
+/src/Fortuna.Collector/bin/Debug/netstandard2.0
+/src/Fortuna.Collector/obj
+/src/Fortuna.Storage.Elasticsearch/bin/Debug/netstandard2.0
+/src/Fortuna.Storage.Elasticsearch/obj
