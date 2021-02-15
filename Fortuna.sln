@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fortuna.Collector", "src\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fortuna.Storage.Elasticsearch", "src\Fortuna.Storage.Elasticsearch\Fortuna.Storage.Elasticsearch.csproj", "{99177600-9259-481E-A7DA-5ACF20E63463}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF55E597-56F9-4724-A20A-E3D73D0EB156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB180A7F-1AC0-4D72-9C35-119520933A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{BC04ECB2-F6BF-4F1A-86A6-00E45CADA504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benckmark", "benckmark", "{584AD308-7619-49F7-84FD-8AAA93760B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06A77F12-917B-44F0-A6F8-14622EB1D63D} = {EF55E597-56F9-4724-A20A-E3D73D0EB156}
+		{99177600-9259-481E-A7DA-5ACF20E63463} = {EF55E597-56F9-4724-A20A-E3D73D0EB156}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAF02F4E-3462-450C-AA0C-89AF36C4E33F}
