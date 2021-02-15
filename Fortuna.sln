@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortuna.Collector", "Fortuna.Collector\Fortuna.Collector.csproj", "{9E0D3F19-A812-4868-B0FD-1CED2A5AA7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortuna.Storage.ElasticSearch", "Fortuna.Storage.ElasticSearch\Fortuna.Storage.ElasticSearch.csproj", "{B57B0232-8B80-40A7-BA40-7DB183C1C27C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E0D3F19-A812-4868-B0FD-1CED2A5AA7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0D3F19-A812-4868-B0FD-1CED2A5AA7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0D3F19-A812-4868-B0FD-1CED2A5AA7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0D3F19-A812-4868-B0FD-1CED2A5AA7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57B0232-8B80-40A7-BA40-7DB183C1C27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57B0232-8B80-40A7-BA40-7DB183C1C27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57B0232-8B80-40A7-BA40-7DB183C1C27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57B0232-8B80-40A7-BA40-7DB183C1C27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

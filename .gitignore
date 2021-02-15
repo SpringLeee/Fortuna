@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Fortuna/v16
+/Fortuna.Collector/obj
+/Fortuna.Collector/bin/Debug/netstandard2.0
+/Fortuna.Storage.ElasticSearch/bin/Debug/netstandard2.0
+/Fortuna.Storage.ElasticSearch/obj
