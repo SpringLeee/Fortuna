@@ -11,3 +11,4 @@
 /src/Fortuna.Collector/obj
 /src/Fortuna.Storage.Elasticsearch/bin/Debug/netstandard2.0
 /src/Fortuna.Storage.Elasticsearch/obj
+/.vs/Fortuna/DesignTimeBuild
