@@ -1,6 +1,6 @@
 <template>
   <a-layout class="components-layout-side" style="min-height: 100vh">
-    <a-layout-sider breakpoint="sm" v-model="collapsed" collapsible>
+    <a-layout-sider  breakpoint="sm" v-model="collapsed" collapsible>
       <div class="logo">
         <h3 v-if="!collapsed" style="color: #fff">Fortuna</h3>
         <h3 v-if="collapsed" style="color: #fff; margin-left: 8px">F</h3>
