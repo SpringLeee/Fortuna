@@ -1,7 +1,11 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="main-content">
+    <router-view></router-view>
   </div>
-  <router-view/>
-</template> 
+</template>
+
+<style>
+.main-content {
+  height: 100%;
+}
+</style>
