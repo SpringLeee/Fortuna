@@ -3,8 +3,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import body from '../views/body.vue'
 import index from '../views/index.vue'
 import trace from '../views/trace.vue'
-import topology from '../views/topology.vue'
-
+import topology from '../views/topology.vue'  
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -16,7 +15,7 @@ const router = createRouter({
       children: [
         {
           path: '/',
-          name:'index',
+          name:'/',
           component: index
         },
         {
